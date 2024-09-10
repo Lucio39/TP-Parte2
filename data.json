@@ -1,0 +1,7 @@
+[  
+    { "id": 1, "opcion": "Programacion" },  
+    { "id": 2, "opcion": "Laboratorio" },  
+    { "id": 3, "opcion": "Ingles" },  
+    { "id": 4, "opcion": "Programacion Frontend" },  
+    { "id": 5, "opcion": "Programacion Backend" }  
+]

@@ -1,0 +1,78 @@
+
+
+body {  
+    background-color: black; /* Fondo negro */  
+    color: white; /* Texto en blanco */  
+    font-family: Arial, sans-serif;  
+    display: flex;  
+    flex-direction: column; /* Flex dirección de columna para apilar el título y el formulario */  
+    justify-content: center; /* Centrando la página verticalmente */  
+    align-items: center; /* Centra horizontalmente */  
+    height: 100vh; /* Altura completa de la vista */  
+    margin: 0; /* Eliminando márgenes */  
+}  
+
+h1 {  
+    text-align: left; /* Alineación a la izquierda */  
+    margin-bottom: 20px; /* Margen en la parte inferior para separarlo del formulario */  
+}  
+
+form {  
+    background-color: rgba(255, 255, 255, 0.564); /* Fondo más transparente */  
+    padding: 30px; /* Espaciado interno */  
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Bordes semi-transparentes */  
+    border-radius: 10px; /* Bordes redondeados */  
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);   
+    width: 300px; /* Ancho del formulario */  
+}  
+
+label {  
+    margin: 10px 0; /* Margen para etiquetas */  
+    font-weight: bold; /* Letras en negrita */  
+}  
+
+input,  
+select {  
+    margin-bottom: 15px; /* Espaciado en la parte inferior */  
+    padding: 8px; /* Relleno de campos */  
+    width: 100%; /* Ancho total */  
+    color: rgb(24, 19, 19); /* Texto en blanco en los campos */  
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo más transparente para campos de entrada */  
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Bordes blancos semi-transparentes */  
+    border-radius: 5px; /* Bordes redondeados */  
+}  
+
+input::placeholder {  
+    color: rgba(255, 255, 255, 0.7); /* Color del texto del placeholder para mejor contraste */  
+}  
+
+button {  
+    padding: 8px 16px; /* Relleno del botón */  
+    background-color: rgba(0, 123, 255, 0.8); /* Color de fondo del botón, semi-transparente */  
+    color: white; /* Color del texto del botón */  
+    border: none; /* Sin marco */  
+    border-radius: 5px; /* Bordes redondeados */  
+    cursor: pointer; /* Cursor de puntero */  
+    font-weight: bold; /* Botón en negrita */  
+   
+}  
+
+button:hover {  
+    background-color: rgba(0, 123, 255, 1); /* Color de fondo al pasar el puntero */  
+}  
+
+/* Estilos específicos para el contenedor de contraseña */  
+.password-container {  
+    position: relative; /* Para posicionar el botón dentro de esta área */  
+}  
+
+.toggle-password {  
+    position: absolute; /* Posicionando el botón en relación al contenedor */  
+    right: 10px; /* Distancia desde la derecha */  
+    top: 50%;  
+    transform: translateY(-50%); /* Centrar verticalmente */  
+    background: none; /* Sin fondo */  
+    border: none; /* Sin borde */  
+    color: #007BFF; /* Texto azul */  
+    cursor: pointer; /* Cursor de puntero */  
+}
